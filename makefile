@@ -33,7 +33,7 @@ test:
 	env/bin/pytest tests/* --cov=h3fake --cov-report term-missing --durations=10
 
 lint:
-	env/bin/flake8 src/h3 setup.py tests
+	env/bin/flake8 src/h3fake setup.py tests
 
 lab:
 	env/bin/pip install jupyterlab
